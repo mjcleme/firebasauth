@@ -1,4 +1,4 @@
-# firebasauth
+# firebaseauth
 ## Firebase Auth Tutorial
 
 This tutorial will allow you to become famaliar with the firebase authentication process with firebase.  This could be used with your final creative lab.
