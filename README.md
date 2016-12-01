@@ -11,7 +11,7 @@ The tutorial will roughly follow the
 express firebaseauth
 cd firebaseauth
 ```
-2. Create a ["public/auth.html"](https://github.com/mjcleme/firebasauth/blob/master/public/auth.html) file with the javascript to connect to firebase for authentication.
+2. Create a ["public/auth.html"](https://raw.githubusercontent.com/mjcleme/firebasauth/master/public/auth.html) file with the javascript to connect to firebase for authentication.
 
 3. Create a new firebase project and copy the firebase information into your "public/auth.html" file replacing
 ```
@@ -45,7 +45,7 @@ cd firebaseauth
 
 9. Now you should see an "Add Domain" button in your firebase tab.  Select this button and add the domain (hostname) of your ec2 node.
 
-9. Copy the [firebase-logo.png](https://github.com/mjcleme/firebasauth/blob/master/public/firebase-logo.png) and [main.css](https://github.com/mjcleme/firebasauth/blob/master/public/main.css) files in your public directory.
+9. Copy the [firebase-logo.png](https://github.com/mjcleme/firebasauth/blob/master/public/firebase-logo.png) and [main.css](https://raw.githubusercontent.com/mjcleme/firebasauth/master/public/main.css) files in your public directory.
 
 10. Start your web server with 
 ```
