@@ -13,7 +13,20 @@ cd firebaseauth
 ```
 2. Create a ["public/auth.html"](https://github.com/mjcleme/firebasauth/blob/master/public/auth.html) file with the javascript to connect to firebase for authentication.
 
-3. Create a new firebase project 
+3. Create a new firebase project and copy the firebase information into your "public/auth.html" file replacing
+```
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "Your APIKEY",
+    authDomain: "Your Domain",
+    databaseURL: "Your URL",
+    storageBucket: "Your bucket",
+    messagingSenderId: "Your ID"
+  };
+  firebase.initializeApp(config);
+</script>
+```
 
 4. Go to "Authentication/Get Started/Setup Signin Method" and enable github.  This should bring up a window that asks for "Client ID" and "Client Secret".  We will fill them in during the next step.  Notice that it also gives you a "callback URL" at the bottom of the box that we will need to insert into the github application area.  Keep this tab open, because you will be filling in the "Client ID" and "Client Secret" boxes later.
 
