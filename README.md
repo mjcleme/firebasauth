@@ -11,8 +11,9 @@ The tutorial will roughly follow the
 express firebaseauth
 cd firebaseauth
 ```
-2. Create a html file with the javascript to connect to firebase for authentication.
-```
-```
+2. Create a ["public/auth.html"](https://github.com/mjcleme/firebasauth/blob/master/public/auth.html) file with the javascript to connect to firebase for authentication.
+
+
+
 
 
