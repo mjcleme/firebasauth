@@ -32,9 +32,9 @@ cd firebaseauth
 
 5. Log into github and go to "settings" by clicking on your picture in the upper right corner.
 
-6. Select "Oath Applications" in the bottom left of the page.
+6. Select "Developer Settings at the bottom left", then select "OAuth Apps" and "New OAuth App".
 
-7. Select "Register a new Application" in the upper right.  Enter 
+7. Enter 
 ..  a. "Application name"=firebaseauth
 ..  b. "Homepage URL"=http://yourserver:3000/auth.html
 ..  c. "Application description"=Firebase Auth Test
