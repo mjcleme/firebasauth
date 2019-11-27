@@ -47,7 +47,7 @@ cd firebaseauth
 
 9. Now you should see an "Add Domain" button in your firebase tab.  Select this button and add the domain (hostname) of your ec2 node.
 
-9. Copy the [firebase-logo.png](https://github.com/mjcleme/firebasauth/blob/master/public/firebase-logo.png) and [main.css](https://raw.githubusercontent.com/mjcleme/firebasauth/master/public/main.css) files in your public directory.
+9. Copy the [firebase-logo.png](https://raw.githubusercontent.com/firebase/quickstart-js/master/auth/firebase-logo.png) and [main.css](https://raw.githubusercontent.com/mjcleme/firebasauth/master/public/main.css) files in your public directory.
 
 10. Start your web server with 
 ```
