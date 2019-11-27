@@ -8,7 +8,7 @@ The tutorial will roughly follow the
 
 You should follow these [instructions](https://firebase.google.com/docs/web/setup) to set up your firebase project.
 
-1. First set up an express project on your amazon ec2 node.
+1. Next set up an express project on your amazon ec2 node.
 ``` 
 express firebaseauth
 cd firebaseauth
