@@ -15,7 +15,7 @@ cd firebaseauth
 ```
 2. Create a ["public/auth.html"](https://raw.githubusercontent.com/mjcleme/firebasauth/master/public/auth.html) file with the javascript to connect to firebase for authentication.
 
-3. Create a new firebase project and copy the firebase information into your "public/auth.html" file replacing
+3. Go to your firebase console and copy the firebase information into your "public/auth.html" file replacing
 ```
 <script>
   // Initialize Firebase
