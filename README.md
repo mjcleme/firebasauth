@@ -31,11 +31,11 @@ cd firebaseauth
 6. Select "Developer Settings at the bottom left", then select "OAuth Apps" and "New OAuth App".
 
 7. Enter 
-  a. "Application name"=firebaseauth
-  b. "Homepage URL"=http://yourserver:3000/auth.html
-  c. "Application description"=Firebase Auth Test
-  d. The next box asks for the "Authorization callback URL".  This was the "callback URL" from the previous step in your firebase window.
-  e. Click the "Register Application" Button at the bottom of the page.
+    1. "Application name"=firebaseauth
+    2. "Homepage URL"=http://yourserver:3000/auth.html
+    3. "Application description"=Firebase Auth Test
+    4. The next box asks for the "Authorization callback URL".  This was the "callback URL" from the previous step in your firebase window.
+    5. Click the "Register Application" Button at the bottom of the page.
   
 8. At the top of the page describing the application, there should be a "Client ID" and "Client Secret".  Copy these and use them to fill in the boxes on your firebase project.  You will have to select the "enable" radio button in the firebase tab and then save the github configuration.  
 
