@@ -6,7 +6,7 @@ This tutorial will allow you to become famaliar with the firebase authentication
 The tutorial will roughly follow the 
 [firebase documentation](https://github.com/firebase/quickstart-js/blob/master/auth/github-redirect.html) for setting up a redirect authentication with github credentials.
 
-You should follow these [instructions](https://firebase.google.com/docs/web/setup) to set up your firebase project.
+1. You should follow these [instructions](https://firebase.google.com/docs/web/setup) to set up your firebase project.
 
 1. Next set up an express project on your amazon ec2 node.
 ``` 
