@@ -17,17 +17,11 @@ cd firebaseauth
 
 3. Go to your firebase console and copy the firebase information into your "public/auth.html" file replacing
 ```
-<script>
-  // Initialize Firebase
-  var config = {
     apiKey: "Your APIKEY",
     authDomain: "Your Domain",
     databaseURL: "Your URL",
     storageBucket: "Your bucket",
     messagingSenderId: "Your ID"
-  };
-  firebase.initializeApp(config);
-</script>
 ```
 
 4. Go to "Authentication/Setup Signin Method" and enable github.  This should bring up a window that asks for "Client ID" and "Client Secret".  We will fill them in during the next step.  Notice that it also gives you a "callback URL" at the bottom of the box that we will need to insert into the github application area.  Keep this tab open, because you will be filling in the "Client ID" and "Client Secret" boxes later.
@@ -37,11 +31,11 @@ cd firebaseauth
 6. Select "Developer Settings at the bottom left", then select "OAuth Apps" and "New OAuth App".
 
 7. Enter 
-..  a. "Application name"=firebaseauth
-..  b. "Homepage URL"=http://yourserver:3000/auth.html
-..  c. "Application description"=Firebase Auth Test
-..  d. The next box asks for the "Authorization callback URL".  This was the "callback URL" from the previous step in your firebase window.
-..  e. Click the "Register Application" Button at the bottom of the page.
+  a. "Application name"=firebaseauth
+  b. "Homepage URL"=http://yourserver:3000/auth.html
+  c. "Application description"=Firebase Auth Test
+  d. The next box asks for the "Authorization callback URL".  This was the "callback URL" from the previous step in your firebase window.
+  e. Click the "Register Application" Button at the bottom of the page.
   
 8. At the top of the page describing the application, there should be a "Client ID" and "Client Secret".  Copy these and use them to fill in the boxes on your firebase project.  You will have to select the "enable" radio button in the firebase tab and then save the github configuration.  
 
